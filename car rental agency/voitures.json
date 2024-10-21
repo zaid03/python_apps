@@ -1,0 +1,116 @@
+[
+    {
+        "marque": "Toyota",
+        "modele": "Corolla",
+        "annee": 2020,
+        "prix_journalier": 300
+    },
+    {
+        "marque": "BMW",
+        "modele": "Serie 3",
+        "annee": 2018,
+        "prix_journalier": 500
+    },
+    {
+        "marque": "Audi",
+        "modele": "A4",
+        "annee": 2019,
+        "prix_journalier": 450
+    },
+    {
+        "marque": "Ford",
+        "modele": "Focus",
+        "annee": 2020,
+        "prix_journalier": 350
+    },
+    {
+        "marque": "Peugeot",
+        "modele": "308",
+        "annee": 2019,
+        "prix_journalier": 300
+    },
+    {
+        "marque": "Nissan",
+        "modele": "Qashqai",
+        "annee": 2020,
+        "prix_journalier": 370
+    },
+    {
+        "marque": "Hyundai",
+        "modele": "i30",
+        "annee": 2018,
+        "prix_journalier": 320
+    },
+    {
+        "marque": "Kia",
+        "modele": "Ceed",
+        "annee": 2019,
+        "prix_journalier": 330
+    },
+    {
+        "marque": "Mazda",
+        "modele": "3",
+        "annee": 2020,
+        "prix_journalier": 390
+    },
+    {
+        "marque": "Toyota",
+        "modele": "Corolla",
+        "annee": 2020,
+        "prix_journalier": 300
+    },
+    {
+        "marque": "BMW",
+        "modele": "Serie 3",
+        "annee": 2018,
+        "prix_journalier": 500
+    },
+    {
+        "marque": "Audi",
+        "modele": "A4",
+        "annee": 2019,
+        "prix_journalier": 450
+    },
+    {
+        "marque": "Ford",
+        "modele": "Focus",
+        "annee": 2020,
+        "prix_journalier": 350
+    },
+    {
+        "marque": "Volkswagen",
+        "modele": "Passat",
+        "annee": 2021,
+        "prix_journalier": 400
+    },
+    {
+        "marque": "Peugeot",
+        "modele": "308",
+        "annee": 2019,
+        "prix_journalier": 300
+    },
+    {
+        "marque": "Nissan",
+        "modele": "Qashqai",
+        "annee": 2020,
+        "prix_journalier": 370
+    },
+    {
+        "marque": "Hyundai",
+        "modele": "i30",
+        "annee": 2018,
+        "prix_journalier": 320
+    },
+    {
+        "marque": "Kia",
+        "modele": "Ceed",
+        "annee": 2019,
+        "prix_journalier": 330
+    },
+    {
+        "marque": "Mazda",
+        "modele": "3",
+        "annee": 2020,
+        "prix_journalier": 390
+    }
+]

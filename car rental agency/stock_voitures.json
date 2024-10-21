@@ -1,0 +1,72 @@
+[
+    {
+        "marque": "Toyota",
+        "modele": "Corolla",
+        "annee": 2020,
+        "prix_journalier": 300,
+        "disponible": true
+    },
+    {
+        "marque": "BMW",
+        "modele": "S\u00e9rie 3",
+        "annee": 2018,
+        "prix_journalier": 500,
+        "disponible": true
+    },
+    {
+        "marque": "Audi",
+        "modele": "A4",
+        "annee": 2019,
+        "prix_journalier": 450,
+        "disponible": true
+    },
+    {
+        "marque": "Ford",
+        "modele": "Focus",
+        "annee": 2020,
+        "prix_journalier": 350,
+        "disponible": true
+    },
+    {
+        "marque": "Volkswagen",
+        "modele": "Passat",
+        "annee": 2021,
+        "prix_journalier": 400,
+        "disponible": true
+    },
+    {
+        "marque": "Peugeot",
+        "modele": "308",
+        "annee": 2019,
+        "prix_journalier": 300,
+        "disponible": true
+    },
+    {
+        "marque": "Nissan",
+        "modele": "Qashqai",
+        "annee": 2020,
+        "prix_journalier": 370,
+        "disponible": true
+    },
+    {
+        "marque": "Hyundai",
+        "modele": "i30",
+        "annee": 2018,
+        "prix_journalier": 320,
+        "disponible": true
+    },
+    {
+        "marque": "Kia",
+        "modele": "Ceed",
+        "annee": 2019,
+        "prix_journalier": 330,
+        "disponible": true
+    },
+    {
+        "marque": "Mazda",
+        "modele": "3",
+        "annee": 2020,
+        "prix_journalier": 390,
+        "disponible": false
+    }
+]
