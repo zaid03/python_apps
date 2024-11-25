@@ -1,0 +1,9 @@
+if __name__ == '__main__':
+    S = input().strip()  # Read input and strip whitespace
+    
+    try:
+        # Attempt to parse the input as an integer
+        print(int(S))
+    except ValueError:
+        # If parsing fails, print "Bad String"
+        print("Bad String")
