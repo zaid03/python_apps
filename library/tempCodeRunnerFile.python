@@ -1,0 +1,20 @@
+from tkinter import *
+from tkinter import ttk
+
+
+def interface_livres_ui():
+    """Initialize the library management user interface."""
+    # Window initialization
+    window = Tk()
+    window.title("Gestion des Livres")
+    window.geometry("1366x768")
+    window.configure(bg="#2E2E2E")
+
+    # Right frame for content / Left frame for buttons
+    right_frame = Frame(window, bg="#D8CAB8", width=800, height=768)
+    right_frame.pack(side=RIGHT, fill=BOTH, expand=True)
+
+    left_frame = Frame(window, bg="grey", width=100, height=768)
+    left_frame.pack(side=LEFT, fill=Y)
+
+    window.mainloop()

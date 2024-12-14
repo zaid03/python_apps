@@ -37,7 +37,7 @@ def execute_read_query(query, parameters=None):
             connection.close()
 
 def execute_write_query(query, parameters=None):
-    connection = create_connection()
+    connection = create_connection()    
     try:
         cursor = connection.cursor()
         if parameters:
@@ -95,10 +95,9 @@ def supprimer_livres_sql(id_livre):
 def rechercher_livre_sql(titre):
     query = "SELECT * FROM livres WHERE titre = %s"
     parameters = (titre,)
-    result = execute_read_query(query, parameters)  # Use execute_read_query for SELECT statements
-    if result:
-        return [{"ID": row[0], "Titre": row[1], "Auteur": row[2], "Prix": row[3], "État": row[4], "Catégorie": row[5]} for row in result]
-    return []
+    print(titre)
+    result = execute_read_query(query, parameters)
+    return result
 
 def ajouter_categories_sql(nom):
     query = "INSERT INTO categories (nom) VALUES (%s)"

@@ -1,1 +1,1 @@
-display_form
+result

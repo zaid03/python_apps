@@ -45,7 +45,6 @@ def main_app():
         entry_label.pack(pady=5)
         entry = ttk.Entry(content_frame, width=30)
         entry.pack(pady=5)
-
         def rechercher_livre():
             titre = entry.get().strip()
             if titre:
