@@ -1,2 +1,1 @@
-from personnes.interface_personnes import interface_personnes_ui
-from livres.interface_livres import interface_livres_ui
+interface_personnes_ui

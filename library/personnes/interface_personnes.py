@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import ttk
 from tkcalendar import Calendar
 from tkinter import Toplevel
-from sql_funtions import *
+from personnes.sql_funtions import *
 
 #global function for ui to work in main
 def interface_personnes_ui():
@@ -390,34 +390,6 @@ def interface_personnes_ui():
         recherche_button = Button(right_frame, text="Rechercher", bg="orange", fg="white", font=("Arial", 12), width=15, height=1, bd=2, relief="flat", command=rechercher_action)
         recherche_button.pack(pady=20)
 
-    
-    def afficher_livres_populaires_action():
-        for widget in right_frame.winfo_children():
-            widget.destroy()
-
-        label = Label(right_frame, text="Top 10 Livres les Plus Empruntés", bg="#D8CAB8", font=("Arial", 14))
-        label.pack(pady=20)
-
-        table = ttk.Treeview(right_frame, columns=("rang", "titre", "emprunts"), show="headings", height=5)
-        table.pack(pady=8, padx=8, fill=BOTH, expand=True)
-
-        table.column("rang", width=50, anchor="center")
-        table.column("titre", width=200, anchor="center")
-        table.column("emprunts", width=100, anchor="center")
-
-        table.heading("rang", text="Rang")
-        table.heading("titre", text="Titre")
-        table.heading("emprunts", text="Nombre d'emprunts")
-
-        # Call the function to get top 10 borrowed books
-        livres_populaires = livres_plus_empruntes()
-
-        # Add entries to the table
-        for i, livre in enumerate(livres_populaires):
-            table.insert("", "end", values=(i+1, livre['titre'], livre['emprunts']))
-
-
-
     #initiazation for persones buttons
     cat_label = Label(left_frame, text="Gestion des Personne:", bg="grey", fg="white", font=("Arial", 12))
     cat_label.pack(pady=20, padx=50)
@@ -445,9 +417,8 @@ def interface_personnes_ui():
     add_button.pack(pady=10, padx=50)
     add_button = Button(left_frame, text="Emrunt par personne", bg="brown", fg="white", width=20, height=2, bd=2, relief="flat", font=("Arial", 10), command=afficher_emprunt_personne_action)
     add_button.pack(pady=10, padx=50)
-    add_button = Button(left_frame, text="test", bg="brown", fg="white", width=20, height=2, bd=2, relief="flat", font=("Arial", 10), command=afficher_livres_populaires_action)
+    add_button = Button(left_frame, text="test", bg="brown", fg="white", width=20, height=2, bd=2, relief="flat", font=("Arial", 10))
     add_button.pack(pady=10, padx=50)
 
     window.mainloop()
 
-interface_personnes_ui()

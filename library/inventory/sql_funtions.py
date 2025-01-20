@@ -1,4 +1,4 @@
-from database import create_connection
+from inventory.database import create_connection
 from mysql.connector import Error
 
 #initialization of the read and write functions

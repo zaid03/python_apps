@@ -1,4 +1,4 @@
-from database import create_connection
+from personnes.database import create_connection
 from mysql.connector import Error
 
 #initialization of the read and write functions
@@ -113,7 +113,7 @@ def livre_epmrunter(id_personne):
 
 def livres_plus_empruntes():
     query = """
-    SELECT titre, COUNT(*) AS emprunts
+    SELECT titre, COUNT(*) AS emprunt
     FROM emprunts
     INNER JOIN livres ON emprunts.id_livre = livres.id_livre
     GROUP BY titre

@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import ttk
 from tkcalendar import Calendar
-from sql_funtions import *
+from inventory.sql_funtions import *
 
 #global function ui for main interface
 def interface_stock_ui():
@@ -280,5 +280,3 @@ def interface_stock_ui():
     add_button.pack(pady=10, padx=50)
 
     window.mainloop()
-
-interface_stock_ui()

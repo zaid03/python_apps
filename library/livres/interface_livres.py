@@ -1,6 +1,6 @@
 from tkinter import *
 from tkinter import ttk
-from sql_funtions import *
+from livres.sql_funtions import *
 
 def interface_livres_ui():
     #window_initialization
@@ -218,5 +218,3 @@ def interface_livres_ui():
 
     #to keep the app running untill closed
     window.mainloop()
-
-interface_livres_ui()
